@@ -7,6 +7,6 @@ project(serial_comm)
 target_sources(app PRIVATE 
 src/main.c
 src/serial_comm_config.c
-src/serial_comm_callback
+src/serial_comm_callback.c
 src/serial_comm_send_data.c
 )
